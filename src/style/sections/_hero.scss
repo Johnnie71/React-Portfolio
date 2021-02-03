@@ -17,9 +17,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  // background: url("../../images/EcoShareShot.png");
+  // background-position: center;
+  // background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -30,6 +30,10 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/84fFptgxiU7cY/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
 
     @include respond(tab-land) {
       font-size: 4rem;
