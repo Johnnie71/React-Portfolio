@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'EcoShareShot.png',
     title: 'Eco Share',
     info:
       'A fun, interactive social media web application. Where creatives from all over the world can come together and share their eco-friendly designs. In hopes of inspiring others to incorporate sustainability within their artistry. As well as possible networking to come together to make the world a better place!',
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'EZTaskShot.png',
     title: 'EZ TASK',
     info: 'A clean and simple single-page application where users can view/create task notes',
     info2: 'Utilized Ruby on Rails, Active Record in backend. Vanilla JavaScript in frontend',
