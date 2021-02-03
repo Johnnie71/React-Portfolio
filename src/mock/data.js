@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'EcoShareShot.png',
     title: 'Eco Share',
     info:
-      'A fun, interactive social media web application. Where creatives from all over the world can come together and share their eco-friendly designs. In hopes of inspiring others to incorporate sustainability within their artistry. As well as possible networking to come together to make the world a better place!',
+      'A fun, interactive social media web application. Where creatives from all over the world can come together and share their eco-friendly designs.',
     info2:
       'Utilized Ruby on Rails, Active Record for data relationships. JavaScript, React, Redux for state management in frontend',
     url: 'https://www.loom.com/share/ee145a72b8194b0e9d97a46a46315bdf',
@@ -95,5 +95,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
