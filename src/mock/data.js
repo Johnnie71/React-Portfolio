@@ -2,26 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Johnnie G | Developer ', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Johnnie.',
+  subtitle: 'Full stack software engineer.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'Hello! I am a fullstack software engineer with experience in Ruby, Ruby on Rails, JavaScript, React.js. Currently Learning React Native to further my knowledge for mobile OS applications.',
+  paragraphTwo:
+    'With a background in architectural design my passion for sustainability has driven me to programming. In todays climate I feel it is important to lead by example and help accelerate the push towards green energy. With tech I feel that is clearly possible given the worlds day to day consumption of data from around the world.',
+  paragraphThree:
+    'Learning new material on my own time has significantly broadened my creative space in and out of programming. 😀',
 };
 
 // PROJECTS DATA
@@ -29,27 +31,30 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Eco Share',
+    info:
+      'A fun, interactive social media web application. Where creatives from all over the world can come together and share their eco-friendly designs. In hopes of inspiring others to incorporate sustainability within their artistry. As well as possible networking to come together to make the world a better place!',
+    info2:
+      'Utilized Ruby on Rails, Active Record for data relationships. JavaScript, React, Redux for state management in frontend',
+    url: '',
+    repo: 'https://github.com/Johnnie71/eco-designs-frontend', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'EZ TASK',
+    info: 'A clean and simple single-page application where users can view/create task notes',
+    info2: 'Utilized Ruby on Rails, Active Record in backend. Vanilla JavaScript in frontend',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Adventures of Avatar',
+    info: 'Fun Interactive Ruby CLI game that a user can explore the world of Pandora',
+    info2:
+      'Utilized Ruby on Rails, and Active Record to access a Sqlite3 Database for easy table relationships',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -59,7 +64,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'johnnie.agonz71@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +73,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/intent/user?screen_name=Johnnieg71',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'medium',
+      url: 'https://medium.com/@johnnie.agonz71',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/johnnie-gonzalez71/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Johnnie71',
     },
   ],
 };
