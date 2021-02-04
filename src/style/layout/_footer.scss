@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    // color: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
@@ -54,6 +54,7 @@
 
     &:hover {
       transform: translateY(-2px);
+      color: blue;
     }
   }
 }
