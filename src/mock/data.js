@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Johnnie.',
+  name: 'Johnnie',
   subtitle: 'Full stack software engineer.',
   cta: '',
 };
@@ -42,7 +42,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'EZTaskShot.png',
-    title: 'EZ TASK',
+    title: 'E-Z Task',
     info: 'A clean and simple single-page application where users can view/create task notes',
     info2: 'Utilized Ruby on Rails, Active Record in backend. Vanilla JavaScript in frontend',
     url: 'https://www.loom.com/share/00d67a6c4a7c4d5b9d67fd5ff7fcd8c9',
