@@ -32,7 +32,7 @@
     margin-bottom: 1rem;
     border: 0;
     width: 50%;
-    border-top: 2px solid #f10404;
+    border-top: 2px solid #ffffff;
   }
 }
 
@@ -67,6 +67,6 @@
 
   &:hover {
     transform: translateY(-2px);
-    color: greenyellow
+    color: rgb(255, 255, 255)
   }
 }
