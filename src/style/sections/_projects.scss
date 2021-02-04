@@ -42,6 +42,9 @@
         background-image: url(https://media.giphy.com/media/84fFptgxiU7cY/giphy.gif);
         background-position: center ;
         -webkit-background-clip: text;
+        -webkit-text-stroke: 1px rgb(129, 129, 129); /* width and color */
+
+        filter: grayscale(80%);
 
         @include respond(phone) {
           font-size: 2rem;
