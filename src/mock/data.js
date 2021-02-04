@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Hello! I am a fullstack software engineer with experience in Ruby, Ruby on Rails, JavaScript, React.js. Currently Learning React Native to further my knowledge for mobile OS applications.',
   paragraphTwo:
-    'With a background in architectural design my passion for sustainability has driven me to programming. In todays climate I feel it is important to lead by example and help accelerate the push towards green energy. Helping others access around the world acces such vital information',
+    'With a background in architectural design my passion for sustainability has driven me to programming. In todays climate I feel it is important to lead by example and help accelerate the push towards green energy. Helping others around the world access such vital information.',
   paragraphThree:
     'Learning new material on my own time has significantly broadened my creative space in and out of programming. 😀',
 };
