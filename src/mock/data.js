@@ -19,11 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hello! I am a fullstack software engineer with experience in Ruby, Ruby on Rails, JavaScript, React.js. Currently Learning React Native to further my knowledge for mobile OS applications.',
+    'My name is Johnnie and I’m a full stack software developer with experience in Ruby, Ruby on Rails, JavaScript, and React. Since graduating from Flatiron Academy in December 2020, I have immersed myself in learning React Native to build a more comprehensive understanding of mobile OS applications.',
   paragraphTwo:
-    'With a background in architectural design my passion for sustainability has driven me to programming. In todays climate I feel it is important to lead by example and help accelerate the push towards green energy. Helping others around the world access such vital information through our screens.',
-  paragraphThree:
-    'Learning new material on my own time has significantly broadened my creative space in and out of programming. 😀',
+    'With a background in architectural design, and a passion for sustainability, I have discovered programming as the perfect vehicle for leading the way toward a greener future. With an estimated 3.5 billion people owning a smartphone in 2020, access to a more sustainable world is now at our fingertips.',
+  paragraphThree: 'Please feel free to explore my page and learn about my projects... 😀',
 };
 
 // PROJECTS DATA
@@ -32,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'EZTaskShot.png',
     title: 'E-Z Task',
-    info: 'A clean and simple single-page application where users can view/create task notes',
+    info: 'A clean and simple single-page application where users can view/create task notes.',
     info2: 'Utilized Ruby on Rails, Active Record in backend. Vanilla JavaScript in frontend.',
     url: 'https://www.loom.com/share/00d67a6c4a7c4d5b9d67fd5ff7fcd8c9',
     repo: 'https://github.com/Johnnie71/EZ-Task-frontend', // if no repo, the button will not show up
@@ -52,9 +51,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'avatarScreenShot.png',
     title: 'Adventures of Avatar',
-    info: 'Fun Interactive Ruby CLI game that a user can explore the world of Pandora.',
+    info: 'Fun Interactive Ruby CLI game where a user can explore the world of Pandora.',
     info2:
-      'Utilized Ruby on Rails, and Active Record to access a Sqlite3 Database for easy table relationships.',
+      'Utilized Ruby on Rails, and Active Record to access a Sqlite3 Database for easy data relationships.',
     url: 'https://www.loom.com/share/22b9f38a28494df081c97334847273c0',
     repo: 'https://github.com/Johnnie71/ruby-project-guidelines-nyc01-seng-ft-082420/tree/JohnnieG', // if no repo, the button will not show up
   },
